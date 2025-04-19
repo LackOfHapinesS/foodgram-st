@@ -1,0 +1,62 @@
+[
+    {
+      "model": "users.user",
+      "pk": 1,
+      "fields": {
+        "username": "admin",
+        "email": "admin@gmail.com",
+        "password": "pbkdf2_sha256$1000000$tT0fN7l0QcU88kCgWylgTC$i0uS2xvvbZLJq5xb+9pTjvWu4p7GlVDkOuQVPxe+RaA=",  
+        "is_active": true,
+        "is_staff": true,
+        "is_superuser": true,
+        "first_name": "Александр",
+        "last_name": "Птичькин",
+        "avatar": "avatars/avatar4.png"
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 2,
+      "fields": {
+        "username": "egot_cherevichkin",
+        "email": "egorka2003@gmail.com",
+        "password": "pbkdf2_sha256$1000000$tT0fN7l0QcU88kCgWylgTC$Sgx0MTLndfMeF0TAv1Sl//FpSvrep2gvBNl9ohPazOE=",  
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "first_name": "Егор",
+        "last_name": "Черевичкин",
+        "avatar": "avatars/avatar3.png"
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 3,
+      "fields": {
+        "username": "oleg_porenko",
+        "email": "olegrulit6@gmail.com",
+        "password": "pbkdf2_sha256$1000000$tT0fN7l0QcU88kCgWylgTC$xh16ONCQzU0BKdk4WF83+FaNvAAgchjbEU/fO7EeD/4=",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "first_name": "Олег",
+        "last_name": "Ничотакойпоренко",
+        "avatar": "avatars/avatar2.png"
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 4,
+      "fields": {
+        "username": "lavanda_chuvstvuet",
+        "email": "lavander0@gmail.com",
+        "password": "pbkdf2_sha256$1000000$tT0fN7l0QcU88kCgWylgTC$8OYZ+uEvAI+Wtedp/h34trEFwocxQVSeDdgVTLUHj28=",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "first_name": "Лавандочка",
+        "last_name": "Брауничка",
+        "avatar": "avatars/avatar1.png"
+      }
+    }
+  ]
